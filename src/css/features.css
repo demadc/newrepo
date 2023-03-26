@@ -1,3 +1,48 @@
-.features {
-  background-color: tomato;
+.features-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.features-section-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-container {
+  display: flex;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #28a745;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.features-icon {
+  width: 25px;
+  height: 25px;
 }
