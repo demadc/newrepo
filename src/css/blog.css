@@ -1,3 +1,22 @@
 .blog {
-  background-color: teal;
+  background: #0284D0;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-top: 112px;
+}
+
+.blog-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.25;
+
 }
